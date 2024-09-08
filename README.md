@@ -23,7 +23,7 @@ The **Earthquake Detection and Alert System** detects P-waves (Primary waves) be
 
 - **Node.js**: Ensure you have Node.js installed. [Download Node.js](https://nodejs.org/).
 - **Hardware**: 
-  - **Seismic Sensors**: Configure as described in `nano.txt`.
+  - **Adxl 355**: Configure as described in `nano.txt`.
   - **NodeMCU**: Follow instructions in `nodemcu.txt` for integration.
 
 ### Setup
