@@ -1,0 +1,64 @@
+:Author: pragatibasnet
+:Email: {AuthorEmail}
+:Date: 18/01/20
+:Revision: version#
+:License: Public Domain
+
+= Project: Earthquake Alert and Monitoring System
+
+This project involves creating an earthquake alert and monitoring system using an Arduino Uno, ADXL335 accelerometer, LCD display, buzzer, and GSM module. The system detects seismic activity and sends alerts via SMS and visual notifications on an LCD.
+
+== Step 1: Installation
+Please follow these steps to install and set up the project:
+
+1. Open the provided Arduino sketch (`sketch123.ino`).
+2. Edit the configuration settings, such as the phone number for SMS alerts.
+3. Upload the code to your Arduino Uno board.
+
+== Step 2: Assemble the Circuit
+
+Assemble the circuit according to the diagram provided in `layout.png`. Here is a summary of the connections:
+
+- **ADXL335 Accelerometer**: Connect the X, Y, and Z outputs to analog pins A0, A1, and A2 of the Arduino respectively.
+- **LCD Display**: Connect the LCD display to the I2C interface of the Arduino.
+- **Buzzer**: Connect the buzzer to digital pin 9.
+- **GSM Module**: Connect the GSM module to digital pins 2 and 3 for communication.
+- **Resistors**: Use one 20kΩ resistor and one 10kΩ resistor in your circuit as specified.
+
+== Step 3: Load the Code
+
+Upload the Arduino sketch (`sketch123.ino`) to your Arduino Uno using the Arduino IDE.
+
+=== Folder Structure
+
+....
+ sketch123                => Arduino sketch folder
+  ├── sketch123.ino       => Main Arduino file
+  ├── schematics.png      => (Optional) Image of the required schematics
+  ├── layout.png          => (Optional) Image of the layout
+  └── ReadMe.adoc         => This file
+....
+
+=== License
+This project is released under a {License} License.
+
+=== Contributing
+To contribute to this project, please contact pragatibasnet at https://id.arduino.cc/pragatibasnet.
+
+=== BOM (Bill of Materials)
+
+|===
+| ID  | Part Name       | Part Number  | Quantity
+| R1  | 20k Resistor    | 1234-abcd    | 1
+| R2  | 10k Resistor    | 2345-asdf    | 1
+| L1  | Red LED         | 3456-ghij    | 5
+| A1  | Arduino Uno     | ABX00066     | 1
+| A2  | ADXL335         | XYZ-5678     | 1
+| BZ1 | Buzzer          | BZ1234       | 1
+| LCD | LCD Display     | LCD-7890     | 1
+| GSM | GSM Module      | GSM-1122     | 1
+|===
+
+=== Help
+
+This document is written in the _AsciiDoc_ format. For more help with AsciiDoc, refer to the [AsciiDoc homepage](http://www.methods.co.nz/asciidoc) or consult the [AsciiDoc cheatsheet](http://powerman.name/doc/asciidoc).
