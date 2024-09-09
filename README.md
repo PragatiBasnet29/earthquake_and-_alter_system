@@ -80,7 +80,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or issues, feel free to reach out to [pragatibasnet123@gmail.com.com](mailto:pragatibasnet123@gmail.com).
+For any questions or issues, feel free to reach out to [pragatibasnet123@gmail.com](mailto:pragatibasnet123@gmail.com).
 
 
 ### Key Improvements:
