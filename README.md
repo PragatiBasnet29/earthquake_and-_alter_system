@@ -1,6 +1,3 @@
-Your README file is structured well but has some formatting and flow inconsistencies that can be improved for better readability. Here's the updated and cleaned-up version of your README.md:
-
-```markdown
 # Earthquake Detection and Alert System
 
 ## Overview
@@ -35,8 +32,7 @@ The **Earthquake Detection and Alert System** detects P-waves (Primary waves) be
 
    ```bash
    git clone https://github.com/PragatiBasnet29/earthquake_and-_alter_system.git
-   cd earthquake_and-_alter_system
-   ```
+   cd earthquake_and-_alter_system`
 
 2. **Install Dependencies**:
 
